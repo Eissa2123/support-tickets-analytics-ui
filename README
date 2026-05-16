@@ -1,0 +1,99 @@
+# Support Tickets Analytics Dashboard
+
+![Status](https://img.shields.io/badge/status-case%20study-brightgreen)
+![Tech](https://img.shields.io/badge/stack-HTML%20%7C%20CSS%20%7C%20JavaScript-blue)
+![UI](https://img.shields.io/badge/focus-UI%20%26%20UX-yellow)
+
+A small front‑end case study for a **support tickets analytics dashboard** built with plain HTML, CSS, and JavaScript. It focuses on clear KPIs, interactive filters, and a simple chart showing how tickets are distributed by status.[web:694][web:704]
+
+---
+
+## Demo
+
+> 🔗 Live demo (GitHub Pages):  
+> `https://USERNAME.github.io/support-tickets-analytics-ui/`
+
+Update `USERNAME` with your GitHub username and enable GitHub Pages for the `main` branch to make the demo live.[web:703][web:712]
+
+---
+
+## Screenshots
+
+**Main dashboard**
+
+![Support tickets dashboard](assets/images/dashboard-full.png)[web:705]
+
+**Filtered by status = Completed**
+
+![Tickets filtered by status](assets/images/status-completed.png)
+
+---
+
+## Features
+
+- **KPI cards**
+  - Total Tickets, Open Tickets, Closed Tickets, Avg Resolution Time
+- **Interactive tickets table**
+  - Colored badges for _Status_ and _Priority_
+  - Clean action buttons for edit/delete (UI only)
+- **Filters**
+  - Status, Priority, Department, Location
+  - All filters update the table, KPIs, and chart in sync
+- **Chart**
+  - Bar chart: **Tickets by Status**, powered by Chart.js[web:681]
+- **Agent performance section**
+  - Simple list with tickets count and closed percentage
+- **Responsive layout**
+  - Table collapses into mobile‑friendly cards on small screens
+
+---
+
+## Tech Stack
+
+- HTML5
+- CSS3 (modular files: `base`, `header`, `cards`, `filters`, `table`, `agent`)
+- Vanilla JavaScript
+- Chart.js for the “Tickets by Status” bar chart
+
+---
+
+## Project Structure
+
+```text
+support-tickets-analytics-ui/
+├─ index.html
+└─ assets/
+   ├─ css/
+   │  ├─ base.css
+   │  ├─ header.css
+   │  ├─ cards.css
+   │  ├─ filters.css
+   │  ├─ table.css
+   │  └─ agent.css
+   ├─ images/
+   │  ├─ dashboard-full.png
+   │  └─ status-completed.png
+   └─ js/
+      └─ main.js
+```
+
+---
+
+## Getting Started
+
+```bash
+git clone https://github.com/Eissa2123/support-tickets-analytics-ui.git
+cd support-tickets-analytics-ui
+# open index.html in your browser or use a local server (e.g. VS Code Live Server)
+```
+
+All data is mocked inside `assets/js/main.js` to keep the focus on UI, filtering logic, and KPI calculations.
+
+---
+
+## Future Improvements
+
+- Connect to a real tickets API
+- Add search by ticket ID / agent
+- Add pagination for large datasets
+- Add authentication & role-based access
