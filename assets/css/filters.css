@@ -1,0 +1,51 @@
+/*================Import Base File================*/
+@import url('./base.css');
+
+/*================Filter================*/
+button.add-new {
+    background: var(--orange);
+    color: var(--white);
+    border-color: var(--orange);
+    cursor: pointer;
+}
+
+button.add-new:hover {
+    background: var(--soft-orange);
+    color: var(--black);
+}
+
+
+.filter-container {
+    display: flex;
+}
+
+.input {
+    display: block;
+}
+
+.filter-label {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+select,
+input {
+    padding: 8px 10px;
+    border: 1px solid var(--soft-gray);
+    border-radius: 15px;
+}
+
+
+/*================Responsive================*/
+@media (max-width:640px) {
+    .filter-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .input {
+        display: flex;
+        justify-content: space-between;
+    }
+}

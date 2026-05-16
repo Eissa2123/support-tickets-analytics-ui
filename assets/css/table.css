@@ -1,0 +1,93 @@
+/*================Import Base File================*/
+@import url('./base.css');
+
+/*================Table================*/
+.tickets-table {
+    background: var(--bg);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th {
+    padding: 15px 5px 15px 5px;
+    border-bottom: 1px solid var(--soft-gray);
+    font-size: 11px;
+    color: var(--gray);
+}
+
+
+table td {
+    padding: 15px 5px;
+    border-bottom: 1px solid var(--soft-gray);
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.action-buttons {
+    display: flex;
+}
+
+
+.table-btn {
+    padding: 8px 8px;
+    border-radius: 999px;
+    border: 1px solid var(--soft-gray);
+    background: var(--white);
+    font-size: 13;
+    font-weight: 500;
+    color: var(--soft-black);
+    cursor: pointer;
+}
+
+.table-btn+.table-btn {
+    margin-left: 6px;
+}
+
+
+
+
+/*================Responsive================*/
+@media (max-width:640px) {
+    .tickets-table {
+        width: 100%;
+    }
+
+    .tickets-table thead {
+        display: none;
+    }
+
+    .tickets-table tbody tr {
+        display: block;
+        border-bottom: 1px solid var(--soft-gray);
+        margin-bottom: 10px;
+        padding: 6px 4px 10px;
+    }
+
+    .tickets-table th,
+    .tickets-table td {
+        padding: 8px;
+    }
+
+    .tickets-table td {
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+        font-size: 0.9em;
+        border-bottom: none;
+    }
+
+    .tickets-table td::before {
+        content: attr(data-label);
+        font-weight: 600;
+        color: var(--gray);
+        margin-right: 8px;
+        font-size: 0.8em;
+    }
+}
