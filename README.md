@@ -80,11 +80,11 @@ All data is mocked inside `assets/js/main.js` to focus on UI, KPI calculations, 
 
 GitHub Pages:
 
-https://eissa2123.github.io/support-tickets-analytics-ui/
+[Live Demo](https://eissa2123.github.io/support-tickets-analytics-ui/)
 
 ---
 
 ## 🙌 Credits
 
 - Design & Front-end: [Eissa Ba Awaidhan](https://github.com/Eissa2123) 
-- Portfolio: https://eissa-portfolio.vercel.app/
+- Portfolio: [My Portfolio](https://eissa-portfolio.vercel.app/)
