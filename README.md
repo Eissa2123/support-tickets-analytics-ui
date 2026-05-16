@@ -54,7 +54,7 @@ support-tickets-analytics-ui/
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)  
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)  
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)  
-![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?logo=chartdotjs&logoColor=white)[web:704][web:681]
+![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?logo=chartdotjs&logoColor=white)
 
 ---
 
@@ -80,12 +80,11 @@ All data is mocked inside `assets/js/main.js` to focus on UI, KPI calculations, 
 
 GitHub Pages:
 
-`https://Eissa2123.github.io/support-tickets-analytics-ui/`  
-(Enable Pages for the `main` branch in repo settings, then update this link.)[web:703][web:712]
+https://eissa2123.github.io/support-tickets-analytics-ui/
 
 ---
 
 ## 🙌 Credits
 
-- Design & Front-end: **Eissa Ba Awaidhan**  
+- Design & Front-end: [Eissa Ba Awaidhan](https://github.com/Eissa2123) 
 - Portfolio: https://eissa-portfolio.vercel.app/
