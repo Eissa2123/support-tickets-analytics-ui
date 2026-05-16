@@ -42,7 +42,7 @@ support-tickets-analytics-ui/
    │  └─ agent.css            // Agent performance list
    ├─ images/
    │  ├─ dashboard-full.png   // Main dashboard screenshot
-   │  └─ status-completed.png // Filtered view screenshot
+   │  └─ status-completed.png // Filtered view screenshothttps://github.com/Eissa2123/support-tickets-analytics-ui/blob/main/README
    └─ js/
       └─ main.js              // Data, KPIs, filters, and chart logic
 ```
